@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="as.css"/>
+    <meta charset="UTF-8">
+    <title>Creating Cards</title>
+    <style>
+        .header
+        {
+            position: absolute;
+            width: 911px;
+            height: 51px;
+
+            font-family: PF BeauSans Pro;
+            font-size: 60px;
+            line-height: 50px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #000000;
+
+        }
+        .rectangle
+        {
+            box-shadow: 0 4px 8px 0;
+            rgba(0,0,0,0.2);
+            transition: 0.3s;
+
+        }
+        .rectangle
+        {
+            display: flex;
+            float:left;
+            position: absolute;
+            width: 819px;
+            height: 72px;
+            left: 615px;
+            top: 100px;
+
+            background: #BE1E2D;
+        }
+
+        .Vector
+        {
+            position: absolute;
+            left: 650px;
+            right: 10.96%;
+            top: 100px;
+            bottom: 7.31%;
+
+            border: 1px solid #FFFFFf;
+        }
+
+        .Vector1
+        {
+            position: absolute;
+            left: 55.75%;
+            right: 55.75%;
+            top: 100px;
+            bottom: 86.77%;
+
+            background: #FFFFFf;
+
+
+        }
+        .container1
+        {
+            position: absolute;
+            width:515px;
+            height: 34px;
+            left:710px;
+            top:188px;
+
+            font-family: KacstScreen,serif;
+            font-size: 40px;
+            line-height: 34px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+
+            color: #FFFFFf;
+
+
+        }
+
+        .container2
+        {
+            position: absolute;
+            width: 525px;
+            height: 104px;
+            left: 705px;
+            top: 336px;
+
+            font-family: PF BeauSans Pro;
+            font-size: 36px;
+            line-height: 52px;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #FFFFFf;
+
+
+        }
+
+        .Address
+        {
+            position: absolute;
+            width: 490px;
+            height: 75px;
+            left: 722px;
+            top: 554px;
+
+            font-family: PF BeauSans Pro;
+            font-size: 26px;
+            line-height: 37px;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #FFFFFF;
+
+
+        }
+
+        .resource
+        {
+
+
+            position: absolute;
+            width: 1024px;
+            height: 750px;
+            left: -378px;
+            top: 100px;
+
+            background: url("Ресурс 1@2x.1.png");
+        }
+        
+        @media (max-width: 580px) {
+
+            .rectangle{flex-direction: column}
+            .resource:first-child{order: 1}
+            .resource:last-child{order: 1}
+
+        }
+
+
+        .resource{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .rectangle > .resource{
+            float: bottom;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class ="header">
+    <img src="Согласованный вариант.png" alt="">
+</div>
+<div class ="rectangle">
+
+<img alt="" height="750" src="Rectangle.png">
+</div>
+<div class="Vector">
+    <img src="Vector.png" alt="">
+</div>
+<div class="">
+
+</div>
+
+<div class="Vector1">
+    <img src="Vector (1).png" alt="">
+
+</div>
+<div class="container1">
+    <img src="Скоро открытие!.png" alt="">
+
+</div>
+<div class="container2">
+    <img src="Настоящая неаполитанская пицца из дровяной печи.png" alt="">
+</div>
+
+<div class="Address">
+    <img src="Адрес_%20Сургут,%20Югорский%20тракт%2038,%20ТРЦ%20«Сити%20Молл».png" alt="">
+</div>
+
+<div class="resource">
+    <img src="Ресурс%201@2x.1.png" alt="">
+</div>
+
+
+
+</body>
+</html>
